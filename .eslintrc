@@ -1,0 +1,12 @@
+{
+  "extends": ["standard"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "no-unused-vars": [2, {"vars": "all", "args": "after-used"}],
+    "no-var": "error"
+  }
+}
